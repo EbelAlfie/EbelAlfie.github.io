@@ -1,6 +1,6 @@
 <h1 align="center">IoT Study and Sleep Monitoring</h1>
 <h2>Overview</h2>
-<p>This is a project for mid semester exam. This project is about a device that can be use as a bedtime alarm. The user first must set the bedtime alarm with an infrared remote. The alarm will rang and the user will be able to stop it. It is assumed that the time the user stops the alarm is the time the user start sleeping, so it will calculate the interval between the bedtime alarm.</p>
+<p>This is a project for mid semester exam. This project is about a device that can be use as a bedtime alarm. The user first must set the bedtime alarm with an infrared remote and it will be saved in the device. The alarm will rang at the bedtime, and the user will be able to stop it. It is assumed that the time the user stops the alarm is the time the user start sleeping, so the device will calculate the interval between the bedtime alarm and the time the user stop the alarm in order to find the lateness of user's bedtime. </p>
 
 <h2>IoT Component</h2>
 <p>The component used in the circuit consist of the microcontroller, that acts as the brain and the gateway, sensor to detect environment condition, and actuator, that acts based on the data processed.</p>
