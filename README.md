@@ -1,6 +1,6 @@
 <h1 align="center">IoT Study and Sleep Monitoring</h1>
 <h2 class="Overview">Overview</h2>
-<p>This is a project for mid semester exam. This project is about a device that can be use as a bedtime alarm. The user first must set the bedtime alarm with an infrared remote and it will be saved in the device. The alarm will rang at the bedtime, and the user will be able to stop it. It is assumed that the time the user stops the alarm is the time the user start sleeping, so the device will calculate the interval between the bedtime alarm and the time the user stop the alarm in order to find the lateness of user's bedtime. In addition, the device will also be able to count the time user spent in learning by detecting the presence of user in their study table and counting the time the user sit there assuming sitting there means studying. Those data will be sent into Thingspeak.com and will be displayed as a graph and the user will be able to evaluate their sleep lateness and study time by seeing it in the web app.</p>
+<p>This is a project for mid semester exam. This project is about a device that can be use as a bedtime alarm. The user first must set the bedtime alarm with an infrared remote and it will be saved in the device. The alarm will rang at the bedtime, and the user will be able to stop it. It is assumed that the time the user stops the alarm is the time the user start sleeping, so the device will calculate the interval between the bedtime alarm and the time the user stop the alarm in order to find the lateness of user's bedtime. In addition, the device will also be able to count the time user spent in learning by detecting the presence of user in their study table and counting the time the user sit there assuming sitting there means studying. Those data will be sent into Thingspeak.com and will be displayed as a graph and the user will be able to evaluate their sleep lateness and study time by seeing it in the app.</p>
 
 <h2>Navigation</h2>
 <ol>
@@ -12,7 +12,7 @@
 
 <h2 class="Folders">Folders</h2>
 <ol>
-  <li>"Web Application" folder contains the web application</li>
+  <li>"Web Application" folder contains the application</li>
   <li>"Circuit" folder contains the pin out as well as the design of the device</li>
 </ol>
 
@@ -34,5 +34,7 @@
   <li>Red LED</li>
   <li>Buzzer</li>
 </ul>
+
+<h2>Application Components</h2>
   
 <h2 class="howwork">How does it works?</h2>
