@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Study and Sleep Time Management</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=0.1">
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<link rel="icon" href="icon.png" type="image/icon">
+	</head>
+	<body>
+		<header>
+			<h1>Study and Sleep Time Management</h1>
+			<nav class="navbar">
+				<p id="date">s</p>
+				<p id="serv-time">a</p>
+				<a id="logout" class="pseudo-btn" href="welcome.html">Log out</a>
+			</nav>		
+		</header>
+		<div class="container" >
+			<div class="card-view info">
+				<h2 id="dayGreet">Good!</h2>
+				<h2 id="greetings">Greetings User!</h2>
+				<small id="nimgreet">NIM: </small>
+				<!--<p>To the left is a graph which represent your time spent in studying 
+				and to the right is a graph which represent the time you start sleeping
+				in comparison with the alarm you have set.
+				</p>-->
+				<p>Pada bagian kiri adalah grafik yang merepresentasikan lama waktu user belajar
+					dalam satuan menit, sedangkan pada bagian kanan adalah grafik yang merepresentasikan
+					interval waktu ketika user mematikan alarm dan ketika alarm berbunyi, dengan asumsi
+					user akan mulai tidur ketika mematikan alarm.
+				</p>
+			</div>
+			<div class="card-view tbl">
+				<table>
+					<tr>
+						<td><b>Lama Belajar</b></td>
+						<td><b>Waktu Telat Tidur</b></td>
+					</tr>
+					<tr>
+						<th><iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1959065/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+			</iframe></th>
+						<th><iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1959065/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+			</iframe></th>
+					</tr>
+				</table>
+				</div>
+		</div>
+		<footer>
+			<p>All right reserved</p>
+		</footer>
+		<script src="script.js" type="text/javascript"></script>
+	</body>
+</html>
