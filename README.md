@@ -5,15 +5,9 @@
 <h2>Navigation</h2>
 <ol>
   <li><a href="#Overview">Overview</a></li>
-  <li><a href="#Folders">Folders</a></li>
   <li><a href="#IoTComp">IoT Components</a></li>
+  <li><a href="#Pinout">Pinout Table</a></li>
   <li><a href="#howwork">How Does it Works?</a></li>
-</ol>
-
-<h2 class="Folders">Folders</h2>
-<ol>
-  <li>"Web Application" folder contains the application</li>
-  <li>"Circuit" folder contains the pin out as well as the design of the device</li>
 </ol>
 
 <h2 class="IoTComp">IoT Components</h2>
@@ -26,16 +20,16 @@
 <ul>
   <li>Ultrasonic sensor</li>
   <li>Real Time Clock (RTC module)</li>
-  <li>Infrared sensor and infrared remote</li>
+  <li>Infrared receiver and infrared remote</li>
 </ul>
 <h3>Actuators</h3>
 <ul>
-  <li>Liquid Crystal Display (16x4)</li>
+  <li>Liquid Crystal Display I2C(16x4)</li>
   <li>Red LED</li>
   <li>Buzzer</li>
 </ul>
 
-<h2>Pinout Table</h2>
+<h2 class="Pinout">Pinout Table</h2>
 <h4>ESP32 to Ultrasonic Sensor</h4>
 <table>
   <tr>
