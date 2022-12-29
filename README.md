@@ -8,7 +8,7 @@
   <li><a href="#IoT-Components">IoT Components</a></li>
   <li><a href="#Pinout-Table">Pinout Table</a></li>
   <li><a href="#Circuit-Design">Circuit Design</a></li>
-  <li><a href="#How-Does-it-Works?">How Does it Works?</a></li>
+  <li><a href="#How-Does-it-Works">How Does it Works?</a></li>
 </ul>
 
 <h2>IoT Components</h2>
