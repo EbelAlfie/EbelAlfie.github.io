@@ -7,6 +7,7 @@
   <li><a href="#Overview">Overview</a></li>
   <li><a href="#IoTComp">IoT Components</a></li>
   <li><a href="#Pinout">Pinout Table</a></li>
+  <li><a href="#Circuit">Circuit Design</a></li>
   <li><a href="#howwork">How Does it Works?</a></li>
 </ol>
 
@@ -158,4 +159,7 @@
   </tr>
 </table>
   
+<h2 class="Circuit">Circuit Design</h2>
+<img src="CircuitDesign.png" alt="Circuit Design">
+
 <h2 class="howwork">How does it works?</h2>
