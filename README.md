@@ -1,17 +1,17 @@
 <h1 align="center">IoT Study and Sleep Monitoring</h1>
-<h2 class="Overview">Overview</h2>
-<p>This is a project for mid semester exam. This project is about a device that can be use as a bedtime alarm. The user first must set the bedtime alarm with an infrared remote and it will be saved in the device. The alarm will rang at the bedtime, and the user will be able to stop it. It is assumed that the time the user stops the alarm is the time the user start sleeping, so the device will calculate the interval between the bedtime alarm and the time the user stop the alarm in order to find the lateness of user's bedtime. In addition, the device will also be able to count the time user spent in learning by detecting the presence of user in their study table and counting the time the user sit there assuming sitting there means studying. Those data will be sent into Thingspeak.com and will be displayed as a graph and the user will be able to evaluate their sleep lateness and study time by seeing it in the app.</p>
+<h2>Overview</h2>
+<p> This project is about a device that can be use as a bedtime alarm and counting time spent in studying. The user must first set the bedtime alarm with an infrared remote and it will be saved in the device. The alarm will rang at the bedtime, and the user will be able to stop it. It is assumed that the time the user stops the alarm is the time the user start sleeping, so the device will calculate the interval between the bedtime alarm and the time the user stop the alarm in order to find how late the user sleep. In addition, the device will also be able to count the time user spent in studying by detecting the presence of user in their study table and counting the time user sit there assuming sitting there means studying. Those data will be sent into Thingspeak.com and will be displayed as a graph and the user will be able to evaluate their sleep lateness and study time by seeing it in the app.</p>
 
 <h2>Navigation</h2>
-<ol>
+<ul>
   <li><a href="#Overview">Overview</a></li>
-  <li><a href="#IoTComp">IoT Components</a></li>
-  <li><a href="#PinoutTable">Pinout Table</a></li>
-  <li><a href="#Circuit">Circuit Design</a></li>
-  <li><a href="#howwork">How Does it Works?</a></li>
-</ol>
+  <li><a href="#IoT-Components">IoT Components</a></li>
+  <li><a href="#Pinout-Table">Pinout Table</a></li>
+  <li><a href="#Circuit-Design">Circuit Design</a></li>
+  <li><a href="#How-Does-it-Works?">How Does it Works?</a></li>
+</ul>
 
-<h2 class="IoTComp">IoT Components</h2>
+<h2>IoT Components</h2>
 <p>The component used in the circuit will be divided into three category, namely the microcontroller, sensor, and actuator: </p>
 <h3>Microcontroller</h3>
 <ul>
@@ -30,7 +30,7 @@
   <li>Buzzer</li>
 </ul>
 
-<h2 class="Pinout">PinoutTable</h2>
+<h2>Pinout Table</h2>
 <h4>ESP32 to Ultrasonic Sensor</h4>
 <table>
   <tr>
@@ -159,7 +159,7 @@
   </tr>
 </table>
   
-<h2 class="Circuit">Circuit Design</h2>
+<h2>Circuit Design</h2>
 <img src="CircuitDesign.png" alt="Circuit Design">
 
-<h2 class="howwork">How does it works?</h2>
+<h2>How does it works?</h2>
