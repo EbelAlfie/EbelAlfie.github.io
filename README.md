@@ -35,6 +35,133 @@
   <li>Buzzer</li>
 </ul>
 
-<h2>Application Components</h2>
+<h2>Pinout Table</h2>
+<h4>ESP32 to Ultrasonic Sensor</h4>
+<table>
+  <tr>
+    <th>ESP32</th>
+    <th>Ultrasonic Sensor</th>
+  </tr>
+  <tr>
+    <th>D35</th>
+    <th>ECHO</th>
+  </tr>
+  <tr>
+    <th>D32</th>
+    <th>TRIG</th>
+  </tr>
+  <tr>
+    <th>GND</th>
+    <th>GND</th>
+  </tr>
+  <tr>
+    <th>VCC</th>
+    <th>5V</th>
+  </tr>
+</table>
+  
+<h4>ESP32 to LED</h4>
+<table>
+  <tr>
+    <th>ESP32</th>
+    <th>Red LED</th>
+  </tr>
+  <tr>
+    <td>D33</td>
+    <td>Anode</td>
+  </tr>
+  <tr>
+    <td>GND</td>
+    <td>Cathode</td>
+  </tr>
+</table>
+  
+<h4>ESP32 to IR Receiver</h4>
+<table>
+  <tr>
+    <th>ESP32</th>
+    <th>IR Receiver</th>
+  </tr>
+  <tr>
+    <td>D12</td>
+    <td>DAT</td>
+  </tr>
+  <tr>
+    <td>GND</td>
+    <td>GND</td>
+  </tr>
+  <tr>
+    <td>VCC</td>
+    <td>3.3V</td>
+  </tr>
+</table>
+
+<h4>ESP32 to Buzzer</h4>
+<table>
+  <tr>
+    <th>ESP32</th>
+    <th>Buzzer</th>
+  </tr>
+  <tr>
+    <td>D18</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>GND</td>
+    <td>GND</td>
+  </tr>
+</table>
+
+<h4>ESP32 to LCD I2C (16x4)</h4>
+<table>
+  <tr>
+    <th>ESP32</th>
+    <th>LCD I2C</th>
+  </tr>
+  <tr>
+    <td>D21 (SDA)</td>
+    <td>SDA</td>
+  </tr>
+  <tr>
+    <td>D22 (SCL)</td>
+    <td>SCL</td>
+  </tr>
+  <tr>
+    <td>VCC</td>
+    <td>5V</td>
+  </tr>
+  <tr>
+    <td>GND</td>
+    <td>GND</td>
+  </tr>
+</table>
+
+<h4>ESP32 to RTC Module</h4>
+<table>
+  <tr>
+    <th>ESP32</th>
+    <th>RTC Module</th>
+  </tr>
+  <tr>
+    <td>D21 (SDA)</td>
+    <td>SDA</td>
+  </tr>
+  <tr>
+    <td>D22 (SCL)</td>
+    <td>SCL</td>
+  </tr>
+  <tr>
+    <td>VCC</td>
+    <td>5V</td>
+  </tr>
+  <tr>
+    <td>GND</td>
+    <td>GND</td>
+  </tr>
+  <tr>
+    <td>-</td>
+    <td>SQW</td>
+  </tr>
+</table>
   
 <h2 class="howwork">How does it works?</h2>
