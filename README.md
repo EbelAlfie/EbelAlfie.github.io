@@ -6,7 +6,7 @@
 <ol>
   <li><a href="#Overview">Overview</a></li>
   <li><a href="#IoTComp">IoT Components</a></li>
-  <li><a href="#Pinout">Pinout Table</a></li>
+  <li><a href="#PinoutTable">Pinout Table</a></li>
   <li><a href="#Circuit">Circuit Design</a></li>
   <li><a href="#howwork">How Does it Works?</a></li>
 </ol>
@@ -30,7 +30,7 @@
   <li>Buzzer</li>
 </ul>
 
-<h2 class="Pinout">Pinout Table</h2>
+<h2 class="Pinout">PinoutTable</h2>
 <h4>ESP32 to Ultrasonic Sensor</h4>
 <table>
   <tr>
